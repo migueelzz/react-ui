@@ -5,7 +5,15 @@ export default {
 		'./lib/**/*.{js,ts,jsx,tsx}'
 	],
 	theme: {
-		extend: {},
+		extend: {
+			colors: {
+				primary: '#F58220',
+        'primary-dark': '#F26E22',
+				'blue-light': '#1E4870',
+				'blue-base': '#031C33',
+				'blue-dark': '#001528',
+			}
+		},
 	},
 	plugins: [],
 }
