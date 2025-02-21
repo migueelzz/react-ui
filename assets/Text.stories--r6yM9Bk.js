@@ -1,0 +1,6 @@
+import{f as d}from"./index-cNkFZXRj.js";import{j as l}from"./jsx-runtime-D_zvdyIk.js";import{r as m}from"./index-DmM0KDA7.js";import{c as p}from"./index-C66Dxnp2.js";const f=p({base:["rounded-md font-medium outline-none transition cursor-pointer","focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-primary","disabled:cursor-not-allowed"],variants:{variant:{default:"text-zinc-600 dark:text-zinc-300"},size:{lg:"text-lg",md:"text-md",base:"text-base",sm:"text-sm"}},defaultVariants:{variant:"default",size:"base"}}),t=m.forwardRef(({className:o,variant:n,size:i,...c})=>l.jsx("span",{className:f({variant:n,size:i,className:o}),...c}));t.displayName="Text";t.__docgenInfo={description:"",methods:[],displayName:"Text"};const b={title:"Example/Text",component:t,parameters:{layout:"centered"},tags:["autodocs"],argTypes:{variant:{control:{type:"select"},options:["default"]}},args:{onClick:d()}},e={args:{children:"This is example text.",variant:"default"}};var a,s,r;e.parameters={...e.parameters,docs:{...(a=e.parameters)==null?void 0:a.docs,source:{originalSource:`{
+  args: {
+    children: 'This is example text.',
+    variant: 'default'
+  }
+}`,...(r=(s=e.parameters)==null?void 0:s.docs)==null?void 0:r.source}}};const T=["Default"];export{e as Default,T as __namedExportsOrder,b as default};
