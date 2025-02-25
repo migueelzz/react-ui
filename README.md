@@ -12,3 +12,4 @@ This repository stores the React UI Design System that was created with Storyboo
 
 - [x] Text
 - [x] Button
+- [x] TextInput

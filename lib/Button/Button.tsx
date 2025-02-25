@@ -3,8 +3,9 @@ import { tv, VariantProps } from 'tailwind-variants'
 
 const buttonVariants = tv({
   base: [
-    'rounded-md font-medium outline-none transition cursor-pointer',
-    'focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-primary',
+    'rounded-lg font-medium outline-none transition cursor-pointer leading-6',
+    'text-base',
+    'focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background focus:scale-[0.98] will-change-transform',
     'disabled:cursor-not-allowed',
   ],
 

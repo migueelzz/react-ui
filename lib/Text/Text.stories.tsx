@@ -1,5 +1,4 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { fn } from '@storybook/test'
 import { Text } from './Text'
 
 const meta: Meta<typeof Text> = {
@@ -14,8 +13,7 @@ const meta: Meta<typeof Text> = {
       control: { type: 'select' },
       options: ['default'],
     },
-  },
-  args: { onClick: fn() },
+  }
 } 
 
 export default meta

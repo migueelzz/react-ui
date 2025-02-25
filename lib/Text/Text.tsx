@@ -3,14 +3,12 @@ import { tv, VariantProps } from "tailwind-variants";
 
 const textVariants = tv({
   base: [
-    "rounded-md font-medium outline-none transition cursor-pointer",
-    "focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-primary",
-    "disabled:cursor-not-allowed",
+    ""
   ],
 
   variants: {
     variant: {
-      default: "text-zinc-600 dark:text-zinc-300",
+      default: "",
     },
 
     size: {

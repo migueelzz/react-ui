@@ -1,3 +1,33 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%; /* #FFF */
+    --primary: 28.3 89.1% 55.7%; /* #F58220 */
+    --foreground: 240 5.8% 26.3%; /* #3F3F46 */
+    --border: 240 5.9% 83.1%; /* #D4D4D8 */
+    --input: 240 5.6% 95.3%; /* #F4F4F5 */
+    --ring: 28.3 89.1% 55.7%; /* #F58220 */
+  }
+
+  .dark {
+    --background: 211.8 100% 8.2%; /* #001528 */
+    --primary: 28.3 89.1% 55.7%; /* #F58220 */
+    --foreground: 0 0% 100%; /* #FFF */
+    --border: 208.9 57.1% 27.8%; /* #1E4870 */
+    --input: 211.7 90.9% 10.0%; /* #031C33 */
+    --ring: 28.3 89.1% 55.7%; /* #F58220 */
+  }
+}
+
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply h-full bg-background font-sans text-foreground antialiased;
+  }
+}
