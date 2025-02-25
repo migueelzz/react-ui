@@ -1,0 +1,8 @@
+import{j as t}from"./jsx-runtime-D_zvdyIk.js";import{c as l}from"./index-C66Dxnp2.js";const u=l({base:["peer ps-9 rounded-lg","focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-offset-background focus-visible:ring-ring outline-none","disabled:cursor-not-allowed"],variants:{variant:{primary:"bg-input border"},size:{lg:"h-12",md:"h-10",sm:"h-8"}},defaultVariants:{variant:"primary",size:"md"}});function n({sufix:r,type:o,variant:p,size:c,className:d,...m}){return t.jsxs("div",{className:"relative",children:[r&&t.jsx("div",{className:"pointer-events-none absolute inset-y-0 start-0 flex items-center justify-center ps-3 text-sm font-medium text-zinc-500 peer-disabled:opacity-50 dark:text-zinc-300",children:r}),t.jsx("input",{type:o,className:u({variant:p,size:c,className:d}),...m})]})}n.__docgenInfo={description:"",methods:[],displayName:"TextInput",props:{sufix:{required:!1,tsType:{name:"ReactNode"},description:""},type:{required:!1,tsType:{name:"string"},description:""}}};const y={title:"Example/TextInput",component:n,parameters:{layout:"centered"},tags:["autodocs"],argTypes:{variant:{control:{type:"select"},options:["primary"]}}},e={args:{type:"text",placeholder:"TextInput with prefix",sufix:"@",variant:"primary"}};var s,a,i;e.parameters={...e.parameters,docs:{...(s=e.parameters)==null?void 0:s.docs,source:{originalSource:`{
+  args: {
+    type: 'text',
+    placeholder: 'TextInput with prefix',
+    sufix: '@',
+    variant: 'primary'
+  }
+}`,...(i=(a=e.parameters)==null?void 0:a.docs)==null?void 0:i.source}}};const g=["Primary"];export{e as Primary,g as __namedExportsOrder,y as default};
